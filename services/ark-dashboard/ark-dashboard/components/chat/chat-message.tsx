@@ -41,7 +41,7 @@ export function ChatMessage({
       <div
         className={`max-w-[80%] rounded-lg px-3 py-2 ${
           isUser
-            ? 'bg-primary text-primary-foreground'
+            ? 'bg-primary text-primary-foreground [&_a]:underline [&_a]:text-inherit'
             : isFailed
               ? 'bg-destructive/10 text-destructive'
               : 'bg-muted'
